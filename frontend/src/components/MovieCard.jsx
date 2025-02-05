@@ -1,6 +1,6 @@
 function MovieCard({ movie }) {
     function onFavoriteClick() {
-        alert("Clicked!");
+        alert("The movie is called: \n" + movie.title);
     }
 
     return (
